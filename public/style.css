@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #141414;   
+font-family: Arial, sans-serif;
+padding-top: 70px;
+}
+nav{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color:black;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+   
+    
+   
+}
+nav h1{
+    color:red;
+}
+
+nav div> button{
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    
+}
+nav button:hover{
+    background-color: darkred;
+    cursor: pointer;
+    
+}
+
+header{
+    background-image: url("images/hero.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+header h2{
+    color: white;
+    font-size: 40px;
+}
+header h3{
+    color: white;
+}
+header input{
+    width: 300px;
+    height: 40px;
+   
+}
+header button{
+    height: 40px;
+    width: 130px;
+    background-color: red;
+    
+}
+header button:hover{
+    background-color: darkred;
+}
+header div {
+    display: flex;
+    gap:10px;
+}
+
+
+
+section > div {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+section > div > div {
+    width: 200px;
+    flex-shrink: 0;
+    transition: transform 0.3s;
+}
+
+section > div > div:hover {
+    transform: scale(1.08);
+}
+
+section img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: white;
+}
+
+section {
+    padding: 50px 80px;
+}
+
+section h3 {
+    margin-top: 8px;
+    color: white;
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
